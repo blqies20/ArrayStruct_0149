@@ -18,4 +18,8 @@ int main()
    cin >> msh.nama;
    cout << "Masukkan alamat = ";
    cin >> msh.alamat;
+
+   cout << endl;
+   cout << "Menampilkan Data" << endl;
+   cout << endl;
 }
