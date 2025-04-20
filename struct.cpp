@@ -10,16 +10,20 @@ struct Mahasiswa
 
 int main()
 {
-   Mahasiswa msh;
+   Mahasiswa mhs;
 
    cout << "Masukkan nim = ";
-   cin >> msh.nim;
+   cin >> mhs.nim;
    cout << "Masukkan nama = ";
-   cin >> msh.nama;
+   cin >> mhs.nama;
    cout << "Masukkan alamat = ";
-   cin >> msh.alamat;
+   cin >> mhs.alamat;
 
    cout << endl;
    cout << "Menampilkan Data" << endl;
    cout << endl;
+
+   cout << "NIM = " << mhs.nim << endl;
+   cout << "Nama = " << mhs.nama << endl;
+   cout << "Alamat = " << mhs.alamat << endl;
 }
